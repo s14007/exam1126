@@ -81,11 +81,11 @@ public class Exam {
 	*/
 
 	char rank (int score) {
-        if (score > 90) {
+        if (score >= 90) {
             return 'A';
-        } else if (score > 70 && score < 90) {
+        } else if (score >= 70) {
             return 'B';
-        } else if (score > 45 && score < 70) {
+        } else if (score >= 45) {
             return 'C';
         } else {
             return 'D';
@@ -189,6 +189,7 @@ public class Exam {
 	*/
 
 	void execute() {
+
 
 	}
 
